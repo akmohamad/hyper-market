@@ -1,0 +1,34 @@
+.Cols {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.right {
+    float: right;
+    text-align: end;
+    padding: 30px;
+}
+
+.left {
+    float: right;
+    text-align: start;
+    padding: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.danger{
+    color: red;
+}
+
+.success{
+    color: green;
+}

@@ -1,0 +1,79 @@
+.mainContainer {
+  background-color: #202020;
+  margin: 0 0 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0px 5px 24px rgba(149, 157, 165, 0.4);
+  height: 80px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 15px 30px;
+}
+
+.productLink {
+  text-decoration: none;
+  color: #2a86ff;
+  font-weight: bold;
+  border-bottom: 3px solid #2a86ff;
+  border-radius: 2px;
+  padding: 0 1px;
+  margin: 10px;
+  transition: all 0.2s ease;
+}
+
+.productLink:hover {
+  color: #0b499b;
+  border-bottom-color: #0b499b;
+}
+
+.iconContainer {
+  position: relative;
+  margin-left: 500px;
+}
+
+.iconContainer img {
+  width: 40px;
+  color: #2a86ff;
+}
+
+.iconContainer span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #2a86ff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 15px 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 555px) {
+  .container {
+    padding: 15px 20px;
+  }
+}

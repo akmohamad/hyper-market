@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    margin-right: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HC {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: rgb(0, 255, 98);
+    text-shadow: 1px 1px 2px aqua;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(0, 255, 98);
+    text-shadow: 1px 1px 2px aqua;
+}
+
+.card {
+    margin: 12px;
+    background: transparent;
+    border: none;
+}
